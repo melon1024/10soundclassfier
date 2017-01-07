@@ -78,7 +78,7 @@ sess.run(tf.global_variables_initializer())
 
 # 이미 학습된 모델 데이터를 불러온다.
 saver = tf.train.Saver() # 파일을 불러온다
-saver.restore(sess, "/home/sovis2016/ckpt_data/")
+saver.restore(sess, "./a5_ckpt_new/")
 
 # 플래스크 앱 생성
 app = Flask(__name__)
