@@ -7,5 +7,6 @@
 ##사용법 
 학습후
 export FLASK_APP=flask_dnn.py && flask run 명령어를 통해 실행가능(학습데이터 이미 있음)
+
 163.253.169.54/uploads 에 접속하여 본다.
 
